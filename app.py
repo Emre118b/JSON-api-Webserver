@@ -3,8 +3,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-# My JSON Server URL (replace with your actual hosted JSON URL)
-API_URL = "https://my-json-server.typicode.com/yourusername/yourrepository"
+
+API_URL = "https://my-json-server.typicode.com/Emre118b/JSON-api-Webserver"
 
 def get_devices():
     try:

@@ -1,0 +1,101 @@
+{
+    "locations": [
+        {"id": 1, "name": "Serverroom", "building": "Main Office"},
+        {"id": 2, "name": "Production Floor", "building": "Factory A"},
+        {"id": 3, "name": "Warehouse", "building": "Logistics Center"},
+        {"id": 4, "name": "Reception Area", "building": "Main Office"},
+        {"id": 5, "name": "Engineering Lab", "building": "Research Center"}
+    ],
+    "devices": [
+        {
+            "id": 1,
+            "name": "Temperature Sensor West Wing",
+            "type": "sensor",
+            "status": "active",
+            "locationId": 2,
+            "lastMaintenance": "2023-10-15",
+            "batteryLevel": 85
+        },
+        {
+            "id": 2,
+            "name": "Humidity Monitor Server Room",
+            "type": "sensor",
+            "status": "active",
+            "locationId": 1,
+            "lastMaintenance": "2023-11-01",
+            "batteryLevel": 92
+        },
+        {
+            "id": 3,
+            "name": "Motion Detector Reception",
+            "type": "sensor",
+            "status": "active",
+            "locationId": 4,
+            "lastMaintenance": "2023-09-22",
+            "batteryLevel": 76
+        },
+        {
+            "id": 4,
+            "name": "Smart Lock Engineering Lab",
+            "type": "actuator",
+            "status": "active",
+            "locationId": 5,
+            "lastMaintenance": "2023-11-10",
+            "batteryLevel": 88
+        },
+        {
+            "id": 5,
+            "name": "Air Quality Sensor Warehouse",
+            "type": "sensor",
+            "status": "inactive",
+            "locationId": 3,
+            "lastMaintenance": "2023-08-15",
+            "batteryLevel": 45
+        },
+        {
+            "id": 6,
+            "name": "Power Consumption Monitor",
+            "type": "sensor",
+            "status": "active",
+            "locationId": 2,
+            "lastMaintenance": "2023-10-30",
+            "batteryLevel": 95
+        },
+        {
+            "id": 7,
+            "name": "Smart HVAC Controller",
+            "type": "actuator",
+            "status": "active",
+            "locationId": 1,
+            "lastMaintenance": "2023-11-05",
+            "batteryLevel": 90
+        },
+        {
+            "id": 8,
+            "name": "Door Control System",
+            "type": "actuator",
+            "status": "active",
+            "locationId": 4,
+            "lastMaintenance": "2023-09-15",
+            "batteryLevel": 70
+        },
+        {
+            "id": 9,
+            "name": "Vibration Sensor Production Line",
+            "type": "sensor",
+            "status": "active",
+            "locationId": 2,
+            "lastMaintenance": "2023-10-20",
+            "batteryLevel": 82
+        },
+        {
+            "id": 10,
+            "name": "Emergency Lighting Control",
+            "type": "actuator",
+            "status": "standby",
+            "locationId": 3,
+            "lastMaintenance": "2023-11-15",
+            "batteryLevel": 100
+        }
+    ]
+}

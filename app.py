@@ -1,3 +1,10 @@
+# Bronnen:
+# - Claude.ai AI-assistentie en code-generatie
+# - Flask documentatie: https://flask.palletsprojects.com/
+# - Requests library: https://docs.python-requests.org/
+# - My JSON Server: https://my-json-server.typicode.com/
+# - Jinja2 templating: https://jinja.palletsprojects.com/
+
 import requests
 from flask import Flask, render_template
 
